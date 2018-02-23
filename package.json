@@ -1,0 +1,32 @@
+{
+  "name": "giphy-example",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@cerebral/http": "^4.1.0",
+    "@cerebral/react": "^3.1.0",
+    "@cerebral/router": "^3.1.0",
+    "cerebral": "^4.1.0",
+    "classnames": "^2.2.5",
+    "giphy-js-sdk-core": "^1.0.3",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "^1.1.1",
+    "typestyle": "^1.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.1",
+    "jest-enzyme": "^4.1.1",
+    "react-test-renderer": "^16.2.0"
+  }
+}

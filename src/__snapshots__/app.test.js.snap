@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`homeRouted 1`] = `
+<nav
+  aria-label="pagination"
+  className="pagination is-centered"
+>
+  <a
+    className="pagination-previous"
+    onClick={[Function]}
+  >
+    Previous
+  </a>
+  <a
+    className="pagination-next"
+    onClick={[Function]}
+  >
+    Next
+  </a>
+  <ul
+    className="pagination-list"
+  >
+    <li>
+      <a
+        aria-label="Goto page 1"
+        className="pagination-link"
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li>
+      <span
+        className="pagination-ellipsis"
+      >
+        …
+      </span>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 2"
+        className="pagination-link is-current"
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 3"
+        className="pagination-link"
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 4"
+        className="pagination-link"
+        onClick={[Function]}
+      >
+        4
+      </a>
+    </li>
+    <li>
+      <span
+        className="pagination-ellipsis"
+      >
+        …
+      </span>
+    </li>
+    <li>
+      <a
+        aria-label="Goto page 100"
+        className="pagination-link"
+        onClick={[Function]}
+      >
+        100
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`homeRouted 2`] = `
+Array [
+  Action {
+    "name": "fetchData",
+  },
+  Provider {
+    "args": Array [
+      Object {
+        "limit": 25,
+        "offset": 25,
+        "q": "cats",
+        "sort": "recent",
+      },
+    ],
+    "method": "giphy.search",
+  },
+  Path {
+    "name": "ok",
+  },
+  Action {
+    "name": "updateState",
+  },
+  Mutation {
+    "args": Array [
+      Object {},
+    ],
+    "method": "set",
+    "path": "data",
+  },
+  Mutation {
+    "args": Array [
+      25,
+    ],
+    "method": "set",
+    "path": "pagination.count",
+  },
+  Mutation {
+    "args": Array [
+      7576,
+    ],
+    "method": "set",
+    "path": "pagination.totalCount",
+  },
+  Mutation {
+    "args": Array [
+      100,
+    ],
+    "method": "set",
+    "path": "pagination.totalPages",
+  },
+]
+`;
